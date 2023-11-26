@@ -55,6 +55,9 @@ def main():
     with open(json_name, 'w', encoding='utf-8') as f:
         json.dump(categories_data, f, ensure_ascii=False, indent=4)
     print(f"Extraction terminée. Données enregistrées dans {json_name}.")
+    
+    
+    # future maj regarder les sous catégories
 
 if __name__ == "__main__":
     main()
