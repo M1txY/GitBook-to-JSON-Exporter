@@ -28,7 +28,7 @@ def extract_links(base_url, soup, total_links):
             'text': content_text
         })
 
-        # Mise à jour manuelle de la barre de progression
+        
         print(f"Traitement des catégories : {index + 1}/{total_links} complété")
 
     return categories
@@ -47,7 +47,7 @@ def extract_main_content(base_url):
         return []
 
 def main():
-    base_url = "https://docs.bscscan.com"  # Remplacez par l'URL réelle
+    base_url = "GITBOOK_URL"
     categories_data = extract_main_content(base_url)
 
     json_name = '_'.join(base_url.split('//')[1].split('.')[:-1]) + '.json'
