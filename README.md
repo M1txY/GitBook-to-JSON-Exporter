@@ -1,7 +1,7 @@
 # GitBook Documentation to GPT Optimizer
 
 ## Overview
-This project provides a powerful tool for converting GitBook documentation into a JSON format, specifically designed to facilitate the customization and optimization of GPT models (such as ChatGPT) using specialized, up-to-date documentation.
+This project provides a tool for converting GitBook documentation into a JSON format, specifically designed to facilitate the customization and optimization of GPT models (such as ChatGPT) using specialized, up-to-date documentation.
 
 ## Features
 - **Automated Conversion**: Converts GitBook documentation to structured JSON format.
